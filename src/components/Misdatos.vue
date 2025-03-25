@@ -18,7 +18,7 @@ export default {
 
 <template>
   <div class="container mt-4">
-    <h3 class="text-center">datos</h3>
+    <h3 class="text-center"></h3>
     <ul class="list-group">
       <li v-for="alumno in alumnos" :key="alumno.id" class="list-group-item">
         <div class="card">
