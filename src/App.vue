@@ -1,20 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import Recorrido from './components/Recorrido.vue'
-import Misdatos from './components/Misdatos.vue'
-import Horario from './components/Horario.vue'
-import HorarioDocente from './components/HorarioDocente.vue'
-import Padre from './components/Props/Padre.vue'
+import Eventos from './components/Eventos/Eventos.vue';
 </script>
+
 <template>
-   <!--HelloWorld nombre ="Josue Israel" />-->
-   <!--Recorrido />-->
-   <!--Misdatos />-->
-   <!--Horario />-->
-   <!--HorarioDocente />-->
-   <Padre/>
+   <Eventos/>
 </template>
 
 <style scoped>
-
+/* Puedes agregar estilos aquí si es necesario */
 </style>
